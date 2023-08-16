@@ -1,38 +1,73 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  padding-top: 100px;
+  
+}
+
+.generator {
+ 
+  border-radius: 3px;
+ 
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(12, 12, 12, 0.906);
+}
+
+.generator__header {
+  text-align: center;
+  
+  
+}
+
+.generator__password {
+  position: relative;
+  background: rgba(83, 74, 74, 0.791);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 4px;
+  color: #fff;
+  height: 26px;
+  margin-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.copy__btn {
+  position: absolute;
+  background: rgb(36, 202, 202);
+  color: #fff;
+  border: none;
+  height: 26px;
+  width: 52px;
+  
+  cursor: pointer;
+  top: 0px;
+  right: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.generator__btn {
+  background: #3ddddd;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  
+  
+  margin-bottom: 15px;
+}
+#plength{
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
